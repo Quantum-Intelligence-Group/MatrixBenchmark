@@ -1,0 +1,28 @@
+{
+  "benchmark": {
+    "dtype": "float64",
+    "matrix_sizes": [
+      500,
+      1000
+    ],
+    "num_runs": 3,
+    "seeds": [
+      42
+    ],
+    "warmup_runs": 1
+  },
+  "metadata": {
+    "description": "Fast configuration for quick testing and development",
+    "name": "Quick Test",
+    "version": "1.0"
+  },
+  "monitoring": {
+    "detect_throttling": false,
+    "monitor_resources": false
+  },
+  "output": {
+    "output_dir": "benchmark_results",
+    "output_prefix": "quick_test",
+    "save_results": true
+  }
+}

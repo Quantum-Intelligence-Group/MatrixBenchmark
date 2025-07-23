@@ -1,0 +1,11 @@
+__pycache__
+benchmark_results
+demo_results
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.egg
+
+
+

@@ -1,0 +1,40 @@
+{
+  "benchmark": {
+    "dtype": "float64",
+    "matrix_sizes": [
+      250,
+      500,
+      750,
+      1000,
+      1250,
+      1500,
+      1750,
+      2000,
+      2500,
+      3000
+    ],
+    "num_runs": 10,
+    "seeds": [
+      42,
+      123,
+      456,
+      789,
+      999
+    ],
+    "warmup_runs": 3
+  },
+  "metadata": {
+    "description": "Thorough configuration for detailed performance analysis",
+    "name": "Comprehensive Test",
+    "version": "1.0"
+  },
+  "monitoring": {
+    "detect_throttling": true,
+    "monitor_resources": true
+  },
+  "output": {
+    "output_dir": "benchmark_results",
+    "output_prefix": "comprehensive_test",
+    "save_results": true
+  }
+}

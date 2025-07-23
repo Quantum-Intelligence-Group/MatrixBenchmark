@@ -1,0 +1,31 @@
+{
+  "benchmark": {
+    "dtype": "float64",
+    "matrix_sizes": [
+      1000,
+      2000,
+      3000
+    ],
+    "num_runs": 7,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "warmup_runs": 2
+  },
+  "metadata": {
+    "description": "Configuration optimized for reproducible cross-machine comparisons",
+    "name": "Cross-Machine Comparison",
+    "version": "1.0"
+  },
+  "monitoring": {
+    "detect_throttling": true,
+    "monitor_resources": true
+  },
+  "output": {
+    "output_dir": "benchmark_results",
+    "output_prefix": "comparison_benchmark",
+    "save_results": true
+  }
+}

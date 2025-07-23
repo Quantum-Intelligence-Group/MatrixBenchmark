@@ -1,0 +1,33 @@
+{
+  "benchmark": {
+    "dtype": "float64",
+    "matrix_sizes": [
+      500,
+      1000,
+      1500,
+      2000,
+      2500
+    ],
+    "num_runs": 5,
+    "seeds": [
+      42,
+      123,
+      456
+    ],
+    "warmup_runs": 2
+  },
+  "metadata": {
+    "description": "Standard configuration for regular performance testing",
+    "name": "Standard Benchmark",
+    "version": "1.0"
+  },
+  "monitoring": {
+    "detect_throttling": true,
+    "monitor_resources": true
+  },
+  "output": {
+    "output_dir": "benchmark_results",
+    "output_prefix": "standard_benchmark",
+    "save_results": true
+  }
+}
